@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior:smooth ;
+    
 }
 
 
@@ -519,12 +520,13 @@ a button h1{
 
     *{
         padding: 0;
-        margin: 0
+        margin: 0;
+        
     }
 
     .header{
         position: fixed;
-        top: 0;
+        top: 0%;
         height: 7vh;
     }
     .link a{
@@ -585,15 +587,7 @@ text-align: center;
     }
 }
 
-.home-images::after{
-    content: '';
-    position: absolute;
-    inset: 20px;
-   
-    border-radius: 50%;
-    z-index:1;
-    
-}
+
 .home-image-container{
     width: 350px;
     height: 350px;
